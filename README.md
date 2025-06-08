@@ -100,26 +100,28 @@ dashboard.php	                User landing page after login
 logout.php	                  Logout user and destroy session
 
 🔧 How It Works
-User registers with a unique username and a strong password.
+- User registers with a unique username and a strong password.
 
-Password is hashed with password_hash() and stored securely.
+- Password is hashed with password_hash() and stored securely.
 
-User attempts login with credentials and completes CAPTCHA.
+- User attempts login with credentials and completes CAPTCHA.
 
-After successful password verification, an OTP is generated and emailed.
+- After successful password verification, an OTP is generated and emailed.
 
-User enters OTP on otp.php for two-factor authentication.
+- User enters OTP on otp.php for two-factor authentication.
 
-On successful OTP verification, user is redirected to the dashboard.
+- On successful OTP verification, user is redirected to the dashboard.
 
-Failed login attempts are counted and lockout is applied after 5 failures for 5 minutes.
+- Failed login attempts are counted and lockout is applied after 5 failures for 5 minutes.
 
-Sessions manage user login state securely.
+- Sessions manage user login state securely.
 
 ⚙️ Folder Structure
 secure-login-system/
 ├── assets/
-│   └── style.css             # CSS styles for the UI
+
+│   └── style.css            # CSS styles for the UI
+
 ├── db.php                   # Database connection script
 ├── login.php                # Login page and processing
 ├── logout.php               # Logout script
