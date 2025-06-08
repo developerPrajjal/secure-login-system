@@ -46,7 +46,7 @@ git clone https://github.com/your-username/secure-login-system.git
 cd secure-login-system
 ```
 
-###2. Setup the database
+2. Setup the database
 Create a MySQL database, e.g., secure_login_db.
 
 Run the following SQL to create the users table:
