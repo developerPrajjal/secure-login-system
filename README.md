@@ -117,20 +117,31 @@ logout.php	                  Logout user and destroy session
 - Sessions manage user login state securely.
 
 ⚙️ Folder Structure
+
 secure-login-system/
+
 ├── assets/
 
 │   └── style.css            # CSS styles for the UI
 
 ├── db.php                   # Database connection script
+
 ├── login.php                # Login page and processing
+
 ├── logout.php               # Logout script
+
 ├── otp.php                  # OTP verification page
+
 ├── register.php             # User registration page
+
 ├── recaptcha_verify.php     # Google reCAPTCHA verification helper
+
 ├── dashboard.php            # User dashboard (protected)
+
 ├── log_failed_login.php     # Optional failed login logging
+
 └── README.md                # This documentation
+
 
 
 📌 Security Considerations
